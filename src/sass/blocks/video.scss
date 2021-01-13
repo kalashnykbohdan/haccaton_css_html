@@ -1,0 +1,153 @@
+.video {
+  min-width: 320px;
+  height: 730px;
+  background-color: $color-bg-btn-download;
+
+  @media (min-width: 1200px) {
+    height: auto;
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
+}
+
+.video__wrapper {
+
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.video__wrapper-item {
+  @media (min-width: 1200px) {
+    width: 50%;
+  }
+}
+
+.video__main-text {
+  font-family: $main-font;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 15px;
+
+  @media (min-width: 768px) {
+    padding: 100px 0 20px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 0 20px;
+    text-align-last: left;
+  }
+}
+
+.video__text {
+  display: block;
+  font-family: $text-font;
+  font-size: 16px;
+  line-height: 26px;
+  color: $second-color-text;
+  text-align: center;
+  padding: 0 20px 15px;
+
+  @media (min-width: 768px) {
+    padding: 0 100px 20px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0;
+    text-align: left;
+    position: relative;
+  }
+}
+
+.video__icon {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  @media (min-width: 1200px) {
+    margin: 25px 0 0;
+  }
+
+  & svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &--apple {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: $color-bg-icon;
+
+    & svg {
+      position: absolute;
+      left: 22%;
+    }
+  }
+
+  &--android {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: $color-bg-icon;
+
+    & svg {
+      position: absolute;
+      left: 78%;
+    }
+  }
+}
+
+
+.video__window {
+  display: block;
+  text-align: center;
+}
+
+.video__play{
+
+  // padding-top: 20px;
+  width:290px;
+  height:250px;
+
+  @media (min-width: 768px) {
+    width:560px;
+    height:315px;
+    padding-top: 0px;
+  }
+}
+
+.video__window img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.video__button-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 42px;
+
+  @media (min-width: 768px) {
+    visibility: hidden;
+  }
+}
+
+.video__button-arrow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+}

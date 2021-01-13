@@ -1,0 +1,25 @@
+%title {
+  font-family: $main-font;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+%title::before {
+  content: '';
+  display: inline-block;
+  background-color: #000;
+  vertical-align: middle;
+  width: 60px;
+  height: 1px;
+  margin: 0 12px 0 0;
+}
+
+%title::after {
+  content: '';
+  display: inline-block;
+  background-color: #000;
+  vertical-align: middle;
+  width: 60px;
+  height: 1px;
+  margin: 0 0 0 12px;
+}

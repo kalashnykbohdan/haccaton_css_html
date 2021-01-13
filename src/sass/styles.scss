@@ -1,0 +1,19 @@
+//Import partials below
+
+@import './normalize';
+@import './components/base';
+@import './helpers/variables';
+@import './fonts';
+@import './components/container';
+@import './components/title';
+@import './components/button';
+@import './components/layout';
+
+//blocks
+
+@import './blocks/header';
+@import './blocks/features';
+@import './blocks/video';
+@import './blocks/team';
+@import './blocks/reviews';
+@import './blocks/footer';
