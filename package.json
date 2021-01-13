@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": "https://kalashnykbohdan.github.io/haccaton_css_html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/kalashnykbohdan/haccaton_css_html.git"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
+    "url": "https://github.com/kalashnykbohdan/haccaton_css_html"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
