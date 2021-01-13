@@ -10,7 +10,7 @@
   .wrapper__header {
     min-width: 320px;
     height: 568px;
-    background-image: url("../../images/background-mobail-image.jpg");
+    background-image: url("../images/background-mobail-image.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 21px;
@@ -250,7 +250,7 @@
 
 @media screen and (min-width: 768px) {
   .wrapper__header {
-    background-image: url('/images/background-tablet-image.jpg');
+    background-image: url("../images/background-tablet-image.jpg");
     margin-bottom: 80px;
   }
   .wrapper__indent {
