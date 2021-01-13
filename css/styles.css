@@ -1500,7 +1500,7 @@ template {
 
 @media screen and (min-width: 1200px) {
   .wrapper__header {
-    background-image: url("../../images/background-desktop-image.jpg");
+    background-image: url("../images/background-desktop-image.jpg");
     background-size: cover;
     margin: 0 auto;
     height: 758px;
